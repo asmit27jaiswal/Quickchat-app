@@ -132,10 +132,15 @@ app.use("/api/messages", messageRouter);
 // Connect DB
 await connectDB();
 
-const PORT = process.env.PORT || 5000;
-
+// 
 // ✅ Always start server locally
-server.listen(PORT, () => console.log(`Server is running on port ${PORT}`));
+// server.listen(PORT, () => console.log(`Server is running on port ${PORT}`));
+if (
+  // process.env.DEPLOYMENT_PLATFORM === "railway" ||
+  process.env.NODE_ENV !== "production") {
+  const PORT = process.env.PORT || 5000;
+  server.listen(PORT, () => console.log(`Server is running on port ${PORT}`));
+}
 
 // Export server for Vercel (optional)
 export default server;
