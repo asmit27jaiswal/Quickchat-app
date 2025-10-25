@@ -1,27 +1,22 @@
 💬 QuickChat – Real-time Chat Application
 
-QuickChat is a full-stack real-time chat app built with React, Node.js, Express, MongoDB, Socket.io, and Cloudinary for media handling.
-It enables users to sign up, log in, update profiles, and chat instantly with other online users — all in real time.
+QuickChat is a full-stack real-time chat app built with
+React, Node.js, Express, MongoDB, Socket.io, and Cloudinary.
+It lets users sign up, log in, update profiles, and chat instantly with others in real time.
 
 🔗 Live Demo
 
-🚀 Try it here: https://quickchat-app-nine.vercel.app
+👉 Try it here: https://quickchat-app-nine.vercel.app
 
-✨ Features
+🚀 Features
 
-🔐 Authentication – Secure Signup, Login, and JWT-based auth
-
-👤 Profile Management – Update user details and avatar via Cloudinary
-
-💬 Real-time Messaging – Instant chats powered by Socket.io
-
-🟢 Online Users Tracking – See who’s active in real time
-
-📷 Image Upload Support – Upload and display images using Cloudinary
-
-📱 Responsive UI – Works smoothly on desktop and mobile
-
-🌐 Deployment – Frontend on Vercel, Backend on Render
+✅ Authentication – Signup, Login, and JWT-based auth
+✅ Profile Management – Update user details and avatar (Cloudinary)
+✅ Real-time Messaging – Powered by Socket.io
+✅ Online Users Tracking – View who’s online
+✅ Image Uploads – Upload & display images via Cloudinary
+✅ Responsive Design – Works smoothly on all devices
+✅ Deployed on – Vercel (Frontend) & Render (Backend)
 
 🧠 Tech Stack
 🖥️ Frontend
@@ -46,4 +41,4 @@ Cloudinary SDK
 
 bcrypt (password hashing)
 
-JWT (authentication)
+JWT (auth)
